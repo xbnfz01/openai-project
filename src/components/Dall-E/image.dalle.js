@@ -194,7 +194,7 @@ const Image = () => {
               }`}
             >
               <button
-                className={`${!prompt && "cursor-not-allowed"}`}
+                className={`${!prompt && "cursor-not-allowed" && "pointer-events-none"}`}
                 type="submit"
                 //
                 // |--------------------------------------------------------------------------
